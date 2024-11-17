@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  
+  <nav>
+    <div class="left">
+      <a href="/">Omar Faruk</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:omarfarukalamin11791@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Omar Faruk </h2>
+        <p>I am a student and full-stack web developer with a passion for creating dynamic and responsive web applications. With a deep expertise in both front-end and back-end technologies, my excel in building seamless and user-friendly digital experiences. My proficiency spans across a range of modern frameworks and tools, including JavaScript, React, Node.js, and CSS. My dedication to continuous learning and my keen eye for detail make him a valuable asset in any development team. Whether working on innovative startups or established enterprises, I consistently deliver high-quality solutions that drive success and engagement.
+        </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/ACLD-180724 copy (1).jpg" alt="Omar Faruk">
+      </div>
+    </section>
+
+    
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I am  a proficient full-stack web developer with a comprehensive skill set that includes expertise in front-end and back-end development. I am adept at using modern technologies such as JavaScript, React, and CSS for crafting intuitive and responsive user interfaces, while leveraging Node.js, Express, and databases like MongoDB and MySQL for robust server-side and database solutions. My skill extends to version control with Git, API integration, and performance optimization, making me a versatile and effective developer capable of delivering end-to-end web solutions.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Node.js</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/Harry Kane.jpg">
+          <p>Harry Kane</p>
+          <p> Web Developer</p>
+          <p>New York, USA </p>
+        </div>
+
+        <div class="text">
+          "I had the pleasure of working with Omar Faruk on several web development projects, and his expertise as a full-stack developer is truly impressive. Omar consistently delivered high-quality code, met all deadlines, and went above and beyond to ensure the success of our projects. His deep understanding of both front-end and back-end technologies, coupled with his problem-solving skills and attention to detail, make him an invaluable team member. I highly recommend Omar for any web development needs"
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>Mobile: 01794938684</p>
+          <p>Email: omarfarukalamin11791@gmail.com</p>
+          
+          
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
